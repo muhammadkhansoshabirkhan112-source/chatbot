@@ -1,0 +1,32 @@
+# NOVA AI - Rule-Based AI Chatbot
+# Project 1 | DecodeLabs Industrial Training Kit 2026
+# 
+# This project uses ONLY Python standard library
+# No external dependencies required!
+# 
+# Compatible with: Python 3.7+
+
+# Standard Library Modules (Pre-installed)
+# - json        : For loading intents from JSON
+# - random      : For random response selection
+# - sys         : For system operations
+# - typing      : For type hints (Python 3.5+)
+
+# Optional Development Dependencies
+# (Uncomment if you want to enhance the project)
+
+# pytest>=6.0          # For unit testing
+# black>=21.0          # For code formatting
+# flake8>=3.9          # For code linting
+# mypy>=0.9            # For type checking
+# sphinx>=4.0          # For documentation generation
+
+# To install development dependencies:
+# pip install -r requirements.txt
+
+# Note: NOVA AI Core requires ZERO external dependencies
+# This ensures:
+# ✓ Fast startup time
+# ✓ Minimal memory footprint
+# ✓ Easy deployment
+# ✓ Maximum compatibility

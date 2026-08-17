@@ -1,0 +1,195 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "greetings",
+        "what's up",
+        "how are you"
+      ],
+      "responses": [
+        "Hello! Nice to meet you!",
+        "Hi there! How can I help you today?",
+        "Greetings! Welcome to NOVA AI Chatbot.",
+        "Hey! I'm here to assist you.",
+        "Hello! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "farewell",
+        "take care",
+        "catch you later",
+        "peace",
+        "bye bye"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you soon! Thanks for chatting.",
+        "Take care! Bye!",
+        "Farewell! Come back anytime.",
+        "Goodbye! Have a wonderful day ahead!"
+      ]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "who are you",
+        "what is your name",
+        "tell me about yourself",
+        "what are you",
+        "who is this",
+        "introduce yourself",
+        "what do you do"
+      ],
+      "responses": [
+        "I'm NOVA AI - a rule-based chatbot built during DecodeLabs internship.",
+        "My name is NOVA AI! I'm an intelligent chatbot powered by control flow and logic.",
+        "I'm NOVA AI, your friendly AI assistant. I respond based on predefined rules and logic.",
+        "I'm a rule-based AI chatbot created to demonstrate control flow and decision-making logic.",
+        "Hello! I'm NOVA AI - Project 1 from the DecodeLabs Industrial Training Kit."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "how is the weather",
+        "what's the weather like",
+        "is it raining",
+        "weather forecast",
+        "tell me about weather",
+        "weather today"
+      ],
+      "responses": [
+        "I don't have access to real-time weather data, but I'd recommend checking a weather app!",
+        "For weather information, please visit weather.com or check your weather app.",
+        "Weather updates are beyond my current capabilities. Try a weather service!",
+        "I can't access live weather data, but you can check a weather website for updates.",
+        "Sorry, I don't have weather data. Consider using a dedicated weather app!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "help me",
+        "can you help",
+        "i need help",
+        "assist me",
+        "what can you do",
+        "tell me your capabilities"
+      ],
+      "responses": [
+        "I can help! I respond to greetings, answer questions about myself, discuss weather, tell jokes, and more. What would you like to know?",
+        "Sure! I can chat with you, answer basic questions, and have fun conversations. Just type away!",
+        "Of course! I'm here to help. Try asking me anything - greetings, jokes, or questions about me.",
+        "Happy to help! Ask me anything related to greetings, information about me, or fun topics!",
+        "I'm here for you! Type any question or greeting, and I'll respond based on my knowledge."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell me a joke",
+        "make me laugh",
+        "say something funny",
+        "joke",
+        "jokes",
+        "funny",
+        "humor",
+        "something to make me smile"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "Why did the AI go to school? To improve its learning model!",
+        "What do you call an AI that tells jokes? An algorithmic comedian!",
+        "Why do Python programmers wear glasses? Because they don't C#!",
+        "How many programmers does it take to change a lightbulb? None, that's a hardware problem!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "your name",
+        "call me",
+        "my name is",
+        "i am",
+        "who should i call you",
+        "what do i call you"
+      ],
+      "responses": [
+        "You can call me NOVA AI! That's my name.",
+        "I'm NOVA AI - the Rule-Based AI Chatbot!",
+        "My name is NOVA AI. Nice to meet you!",
+        "You can address me as NOVA AI.",
+        "NOVA AI is what you can call me!"
+      ]
+    },
+    {
+      "tag": "ai_concept",
+      "patterns": [
+        "what is artificial intelligence",
+        "explain ai",
+        "ai definition",
+        "what is ai",
+        "tell me about ai",
+        "how does ai work",
+        "artificial intelligence"
+      ],
+      "responses": [
+        "AI (Artificial Intelligence) is the simulation of human intelligence by machines. I'm a rule-based AI using logic and control flow!",
+        "Artificial Intelligence is about creating systems that can perform tasks that typically require human intelligence.",
+        "AI is the field of computer science dedicated to creating intelligent machines. I'm built on rule-based logic!",
+        "Artificial Intelligence enables computers to learn, reason, and make decisions. I use predefined rules for interaction.",
+        "AI systems like me aim to simulate human-like interactions through programming logic and decision-making structures."
+      ]
+    },
+    {
+      "tag": "decodelabs",
+      "patterns": [
+        "what is decodelabs",
+        "tell me about decodelabs",
+        "decodelabs",
+        "who created you",
+        "who built you",
+        "decodelabs internship",
+        "industrial training kit"
+      ],
+      "responses": [
+        "I was created by DecodeLabs as part of their Industrial Training Kit. DecodeLabs is an AI education platform!",
+        "DecodeLabs is an organization providing AI and machine learning training through practical projects.",
+        "I'm Project 1 from DecodeLabs' Industrial Training Kit - built to teach rule-based AI fundamentals!",
+        "DecodeLabs creates hands-on AI learning experiences. I'm part of their Batch 2026 curriculum!",
+        "DecodeLabs is an AI training platform located in Lucknow, India. They created me for educational purposes!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "what time is it",
+        "tell me the time",
+        "current time",
+        "what's the time",
+        "time now"
+      ],
+      "responses": [
+        "I don't have access to real-time data, but you can check your device's clock!",
+        "Sorry, I can't tell you the exact time right now. Check your watch or phone!",
+        "Time information requires real-time access which I don't have. Check your system time!",
+        "I can't tell time, but your device should show you the current time!",
+        "Real-time data isn't available to me. Your device can show you the time though!"
+      ]
+    }
+  ]
+}
